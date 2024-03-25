@@ -18,7 +18,7 @@ class DrinkWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 99,
+      width: 110,
       height: 30,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(33.0),

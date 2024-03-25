@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'screens/splash_view.dart';
 
 void main() {
-  runApp(const CoffeShopApp());
+  runApp(const CoffeeShopApp());
 }
 
-class CoffeShopApp extends StatelessWidget {
-  const CoffeShopApp({super.key});
+class CoffeeShopApp extends StatelessWidget {
+  const CoffeeShopApp({super.key});
 
   @override
   Widget build(BuildContext context) {

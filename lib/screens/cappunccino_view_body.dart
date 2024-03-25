@@ -18,6 +18,16 @@ class CappunccinoViewBody extends StatelessWidget {
           color: kDrinkContainerColor,
         ),
         const BackGroundImage(),
+        Positioned(
+          top: 35,
+          child: IconButton(
+            onPressed: () => Navigator.pop(context),
+            icon: const Icon(
+              Icons.arrow_back_ios,
+              color: Colors.white,
+            ),
+          ),
+        ),
         const Positioned(
           top: 250,
           child: Drinkdetails(),
@@ -29,7 +39,7 @@ class CappunccinoViewBody extends StatelessWidget {
               color: kWhiteColor,
               borderRadius: BorderRadius.circular(50.0),
             ),
-            width: 395,
+            width: 410,
             height: 550,
           ),
         ),

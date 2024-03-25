@@ -13,7 +13,7 @@ class Drinkdetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: kDrinkContainerColor,
-      width: 395,
+      width: 500,
       height: 200,
       child: const Padding(
         padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
